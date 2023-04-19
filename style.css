@@ -1,0 +1,18 @@
+:root{
+  --text-color: #000000;
+  --primary-color: #4C5FD5;
+  --secondary-color: #dadbf1;
+  --bg-color: #fff;
+  --font: GT-America-Regular, sans-serif;
+}
+
+*{
+  margin: 0;
+  font-family: var(--font)
+}
+
+@font-face {
+  font-family: 'GT-America-Regular';
+  src: url(./GT-America-Regular.ttf);
+}
+
