@@ -1,5 +1,6 @@
 :root{
-  --text-color: #000000;
+  --text-color: #191a1b;
+  --darker-color: #000;
   --primary-color: #4C5FD5;
   --secondary-color: #dadbf1;
   --bg-color: #fff;
@@ -8,7 +9,60 @@
 
 *{
   margin: 0;
-  font-family: var(--font)
+  font-family: var(--font);
+  font-size: 24px;
+}
+
+nav{
+  background-color: var(--darker-color);
+  color: var(--bg-color);
+}
+
+header{
+  background-color: var(--secondary-color);
+}
+
+footer{
+  background-color: var(--darker-color);
+  color: var(--bg-color);
+}
+
+a{
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+img{
+  max-height: 90px;
+  max-width: 100%;
+  margin-right: 30px;
+  margin-top: 8px;
+}
+
+h4{
+  margin-bottom: 20px;
+}
+
+.card{
+  display: flex;
+  flex-basis: 800px;
+  margin-bottom: 3rem;
+  padding: 0 1.5rem 0 0;
+}
+
+.card p{
+  margin-bottom: 20px;
+}
+
+#cardsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#footerContainer{
+  display: flex;
 }
 
 @font-face {
