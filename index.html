@@ -10,15 +10,24 @@
 </head>
 <body>
   <nav>
-    <img src="./imgs/abstract-logo.svg" alt=""><a href="https://www.goabstract.com/" target="_blank">Abstract</a>
-    <a href="https://help.abstract.com/hc/en-us" target="_blank">Help Center</a>
-    <button>Submit a request</button>
-    <button>Sign in</button>
+    <div id="navLogoContainer">
+      <img class="logoSvg" src="./imgs/abstract-logo.svg" alt="">
+      <a href="https://www.goabstract.com/" target="_blank">Abstract</a>
+      <a id="helpCenter" href="https://help.abstract.com/hc/en-us" target="_blank">Help Center</a>
+    </div>
+    <div id="navBtnsContainer">
+      <div>
+        <button id="submitReqBtn">Submit a request</button>
+      </div>
+      <div>
+        <button id="signInBtn">Sign in</button>
+      </div>
+    </div>
   </nav>
   <header>
     <h1>How can we help?</h1>
     <form>
-      <input type="search" name="search" id="search">
+      <input type="search" name="search" id="search" placeholder="Search">
     </form>
   </header>
   <main>
@@ -125,7 +134,7 @@
         </ul>
       </div>
       <div>
-        <img src="./imgs/abstract-logo.svg" alt="logo-svg">
+        <img class="logoSvg" src="./imgs/abstract-logo.svg" alt="logo-svg">
         <p>© Copyright 2023</p>
         <p>Abstract Studio Design, Inc.</p>
         <p>All rights reserved</p>
