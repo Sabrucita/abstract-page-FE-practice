@@ -17,6 +17,7 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 0 -400px;
   background-color: var(--darker-color);
   color: var(--bg-color);
   height: 88px;
@@ -47,13 +48,6 @@ h1{
   font-weight: 100;
 }
 
-input{
-  width: 700px;
-  height: 70px;
-  color: var(--secondary-color);
-  margin-top: 30px;
-}
-
 a{
   color: var(--primary-color);
   text-decoration: none;
@@ -69,6 +63,15 @@ img{
 
 h4{
   margin-bottom: 20px;
+}
+
+form{
+  margin-top: 20px;
+  display: flex;
+  background-color: var(--bg-color);
+  border-radius: 5px;
+  border: 1px solid #393a3b;
+  box-shadow:0 9px 14px 0 rgba(0, 0, 0, 0.1)
 }
 
 .card{
@@ -127,6 +130,20 @@ h4{
 
 #footerContainer{
   display: flex;
+}
+
+#search{
+  padding-left: 20px;
+  width: 700px;
+  height: 70px;
+  border: none;
+  border-radius: 5px;
+  /*box-shadow:0 9px 14px 0 rgba(0, 0, 0, 0.1);*/
+}
+
+#arrowSvg{
+  width: 28px;
+  margin-right: 10px;
 }
 
 @font-face {
