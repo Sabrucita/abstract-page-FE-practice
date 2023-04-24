@@ -20,6 +20,7 @@ nav{
   background-color: var(--darker-color);
   color: var(--bg-color);
   height: 88px;
+  gap: 800px;
 }
 
 nav a{
@@ -40,8 +41,6 @@ header{
 footer{
   background-color: var(--darker-color);
   color: var(--bg-color);
-  padding-bottom: 60px;
-  display: flex;
 }
 
 h1{
@@ -87,6 +86,7 @@ ul li{
 
 ul li a{
   color: var(--bg-color);
+  font-size: 16px;
 }
 
 ul li a:hover{
@@ -98,7 +98,6 @@ ul li a:hover{
   display: flex;
   flex-basis: 800px;
   margin-bottom: 3rem;
-  padding: 0 1.5rem 0 0;
 }
 
 .card p{
@@ -145,13 +144,17 @@ ul li a:hover{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 8rem 0 4rem 0;
+  margin: 8rem 0 4rem 7rem;
+}
+
+#cardsContainer p{
+  padding-right: 80px;
 }
 
 #footerContainer{
   display: flex;
   justify-content: space-around;
-  padding-bottom: 100px;
+  padding-bottom: 70px;
   padding-top: 50px;
 }
 
@@ -182,14 +185,30 @@ ul li a:hover{
 }
 
 #helpBtnContainer{
-  position:sticky;
-  bottom: 0px;
+  position:fixed;
+  bottom: 20px;
+  margin-right: 15px;
+  right: 0px;
 }
 
 #helpBtnContainer button{
   background-color: var(--primary-color);
   color: var(--bg-color);
   padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid var(--primary-color);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#copyright{
+  margin-top: 100px;
+}
+
+#copyright p{
+  font-size: 20px;
 }
 
 @font-face {
