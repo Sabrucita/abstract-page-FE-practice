@@ -1,5 +1,7 @@
 # Abstract Page - Front End Practice
 
+This is only a **Desktop Version.**
+
 This is going to be my first time trying to replicate a webpage and I hope this turns into a serie, with help of the
 Front End Practice website, where I chose an example to work with, I selected the following project:
 

@@ -154,6 +154,7 @@ ul li a:hover{
 #footerContainer{
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   padding-bottom: 70px;
   padding-top: 50px;
 }
