@@ -16,11 +16,11 @@
 nav{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: var(--darker-color);
   color: var(--bg-color);
   height: 88px;
-  gap: 800px;
+  padding: 0 100px;
 }
 
 nav a{
